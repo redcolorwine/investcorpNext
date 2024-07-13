@@ -32,13 +32,13 @@ const Footer = () => {
                 <div className={cmedia.contacts}>
                     <h3>Контакты</h3>
                     <p>Email: <span>investment.corporation@invest-corp.ru</span></p>
-                    <p>Телефон: <span>+7 (963) 995-13-66</span></p>
+                    <p>Телефон: <span>+7 (903) 168-46-70</span></p>
                 </div>
                 <div className={cmedia.socials}>
                     <h3>Социальные сети</h3>
-                    <PiWhatsappLogoThin size={35} />
-                    <IoLogoInstagram size={35} />
-                    <PiTelegramLogoThin size={35} />
+                    <a href='https://wa.me/+79031684670' target='blank'><PiWhatsappLogoThin size={35} /></a>
+                    <a href='https://www.instagram.com/invest__corp/' target='blank'><IoLogoInstagram size={35} /></a>
+                    <a href='https://web.telegram.org/' target='blank'><PiTelegramLogoThin size={35} /></a>
                 </div>
                 <div className={cmedia.privacy}>
                     <p>

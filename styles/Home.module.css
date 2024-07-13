@@ -18,6 +18,7 @@
   font-family: Comfortaa;
   src: url('/media/fonts/Comfortaa/Comfortaa-Light.ttf');
 }
+
 /*Слайдер*/
 .center {
   /* width: 90%; */
@@ -57,6 +58,7 @@
 .slideText p {
   color: rgb(187, 181, 181);
 }
+
 .App {
   display: flex;
   flex-direction: column;
@@ -130,8 +132,7 @@
 .aboutBlock {
   height: auto;
   width: 100%;
-  background-color: black;
-  /* background-color: rgb(24, 24, 24); */
+  background-color: rgb(24, 24, 24);
   color: white;
   margin-top: 100px;
 }
@@ -183,8 +184,7 @@
   /* margin: 80px auto 0px auto; */
   height: auto;
   width: 100%;
-  background-color: black;
-  /* background-color: rgb(24, 24, 24); */
+  background-color: rgb(24, 24, 24);
   color: white;
 
 }
@@ -236,6 +236,11 @@
   height: 500px;
   width: 500px;
   object-fit: contain;
+}
+
+.servicesWrapper video {
+  height: 500px;
+  width: 500px;
 }
 
 .servicesText {
@@ -456,8 +461,7 @@ p.accActive {
   .aboutBlock {
     height: auto;
     width: 100%;
-    background-color: black;
-    /* background-color: rgb(24, 24, 24); */
+    background-color: rgb(24, 24, 24);
     color: white;
 
   }
@@ -542,6 +546,11 @@ p.accActive {
   }
 
   .servicesWrapper img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .servicesWrapper video {
     height: 400px;
     width: 400px;
   }
@@ -753,6 +762,12 @@ p.accActive {
     width: 100%;
   }
 
+  .servicesWrapper video {
+    order: 0;
+    height: 400px;
+    width: 100%;
+  }
+
   .servicesText {
     order: 1;
     display: flex;
@@ -897,7 +912,7 @@ p.accActive {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
- .App {
+  .App {
     background-color: rgb(24, 24, 24);
   }
 
@@ -1027,6 +1042,12 @@ p.accActive {
   }
 
   .servicesWrapper img {
+    order: 0;
+    height: 400px;
+    width: 100%;
+  }
+
+  .servicesWrapper video {
     order: 0;
     height: 400px;
     width: 100%;

@@ -8,13 +8,16 @@
 html, body, #root, .App {
   height: 100%;
   width: 100%;
-  background-color: black;
-  /* background-color: rgb(24, 24, 24); */
+  background-color: rgb(24, 24, 24);
 }
 
 body, html {
   overflow-x: hidden;
   max-width: 100%;
+}
+
+video::-webkit-media-controls {
+  display: none;
 }
 
 .center {

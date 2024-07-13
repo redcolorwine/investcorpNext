@@ -20,6 +20,7 @@ import { PiTelegramLogoThin } from "react-icons/pi";
 import { textAnimation, textAnimation2, textAnimation3 } from '../components/animations';
 
 const Home = (props) => {
+
   var settings = {
     className: "center",
     centerMode: true,
@@ -60,7 +61,15 @@ const Home = (props) => {
   return (
 
     <>
-
+      <Head>
+        <meta charset="utf-8" />
+        <meta name="description"
+          content="Современное агенство недвижимости. Путеводитель в поиске качественной недвижимости. Полное сопровождение сделок связанных с недвижимостью." />
+        <meta name="keywords"
+          content="Агенство недвижимости Москва, Аренда недвижимости Москва, поиск жилья Москва, аренда Москва, элитная недвижимость Москва, аренда элитной недвижимости Москва, снять квартиру Москва, снять офис Москва, офис Москва, Агенство недвижимости, недвижимость, поиск недвижимости, поиск жилья, аренда, аренда недвижимости, аренда помещений, сдать недвижимость, купить квартиру, купить помещение, Агентства недвижимости в Москве, выбрать агентство недвижимости, риэлторы агентства, брокер, риэлтор" />
+        <meta name="robots" content="all" />
+        <title>Investment Corporation. Надежное агенство недвижимости.</title>
+      </Head>
       <div className={styles.mainBlock} ref={props.mainRef} id='main'>
         <Image src={'/media/back10.jpg'} width={1080} height={1920} alt="" srcset="" />
         <div className={styles.mainText}>
@@ -111,7 +120,9 @@ const Home = (props) => {
               <div className={styles.serviceType}><span>3</span><motion.p custom={3} variants={textAnimation3}>Ведение полного цикла сделки от подбора объекта до заключения договора</motion.p></div>
               <div className={styles.serviceType}><span>4</span><motion.p custom={4} variants={textAnimation3}>Ведение документации по сделкам с недвижимостью</motion.p></div>
             </div >
-            <Image src={'/media/gifs/hand2.gif'} alt='gifImage' width={500} height={500} />
+            <video width="400" autoPlay={true} muted playsInline loop style={{ pointerEvents: "none" }}>
+              <source src='/media/investVideo.mp4' type="video/mp4" />
+            </video>
           </div>
         </motion.div>
 
@@ -125,21 +136,21 @@ const Home = (props) => {
                   <p>Площадь от 30 м.<sup>2</sup></p>
                 </div>
 
-                <Image src={'/media/mc1.jpg'} height={1000} width={1000} alt="" />
+                <a href='https://wa.me/+79031684670'><Image src={'/media/mc1.jpg'} height={1000} width={1000} alt="" /></a>
               </div>
               <div>
                 <div className={styles.slideText}>
                   <h4>Продажа офисов класса A, A+ и B+</h4>
                   <p>Площадь от 30 м.<sup>2</sup></p>
                 </div>
-                <Image src={'/media/mc2.jpg'} height={1000} width={1000} alt="" />
+                <a href='https://wa.me/+79031684670'><Image src={'/media/mc2.jpg'} height={1000} width={1000} alt="" /></a>
               </div>
               <div>
                 <div className={styles.slideText}>
                   <h4>Ритейл</h4>
                   <p>Площадь от 10 до 10'000 м.  <sup>2</sup></p>
                 </div>
-                <Image src={'/media/mc3.jpg'} height={1000} width={1000} alt="" />
+                <a href='https://wa.me/+79031684670'><Image src={'/media/mc3.jpg'} height={1000} width={1000} alt="" /></a>
               </div>
             </Slider>
             <div className={styles.searchText}>
@@ -152,9 +163,9 @@ const Home = (props) => {
         <div className={styles.accordeon} ref={props.accordeonRef} id='accordeon'>
           <h1> ВОПРОС - ОТВЕТ</h1 >
           <div className={styles.accorderonWrapper}>
-          <AccordeonItem headText={'Почему стоит обратиться в агенство недвижимости INVESTMENT CORPORATION?'} descrText={'Мы предоставляем качественные услуги в сфере консалтинга по операциям с коммерческой недвижимостью для собственников, потребителей и инвесторов. Наша общественная миссия - помочь большему количеству клиентов, найти оптимальные решения вопросов, связанных с недвижимостью, обеспечить максимальную выгоду и удобство сделки, а также сделать рынок консалтинговых, брокерских услуг цивилизованным и прозрачным.'} />
-                        <AccordeonItem headText={'Почему выгодно сотрудничать с агенством?'} descrText={'Наше агенство сотрудничает только с надежными арендодателями и собственниками. Мы гордимся нашей командой профессиональных брокеров, ведь опыт каждого от 3-х до 10 лет, а в нашем портфолио множество успешно реализованных сделок с лучшими компаниями страны.'} />
-                        <AccordeonItem headText={'В чем заключается наша работа?'} descrText={'Мы будем сопровождать Вас на всем пути сделки: от выявления запроса до подписания документов. Клиент получает максимально комфортные условия, начиная от привлекательной цены, заканчивая максимальной оперативностью в решении вопросов.'} />
+            <AccordeonItem headText={'Почему стоит обратиться в агенство недвижимости INVESTMENT CORPORATION?'} descrText={'Мы предоставляем качественные услуги в сфере консалтинга по операциям с коммерческой недвижимостью для собственников, потребителей и инвесторов. Наша общественная миссия - помочь большему количеству клиентов, найти оптимальные решения вопросов, связанных с недвижимостью, обеспечить максимальную выгоду и удобство сделки, а также сделать рынок консалтинговых, брокерских услуг цивилизованным и прозрачным.'} />
+            <AccordeonItem headText={'Почему выгодно сотрудничать с агенством?'} descrText={'Наше агенство сотрудничает только с надежными арендодателями и собственниками. Мы гордимся нашей командой профессиональных брокеров, ведь опыт каждого от 3-х до 10 лет, а в нашем портфолио множество успешно реализованных сделок с лучшими компаниями страны.'} />
+            <AccordeonItem headText={'В чем заключается наша работа?'} descrText={'Мы будем сопровождать Вас на всем пути сделки: от выявления запроса до подписания документов. Клиент получает максимально комфортные условия, начиная от привлекательной цены, заканчивая максимальной оперативностью в решении вопросов.'} />
           </div >
         </div >
 
@@ -174,16 +185,16 @@ const Home = (props) => {
                 <div className={styles.phone}>
 
                   <CiPhone size={65} />
-                  <p>Телефон: <span>+7 (963) 995-13-66</span></p>
+                  <p>Телефон: <span>+7 (903) 168-46-70</span></p>
                 </div >
               </div>
               <div className={styles.bottom}>
                 <div className={styles.socials}>
                   <h2>Социальные сети</h2>
                   <div className={styles.socIcons}>
-                  <a href='https://wa.me/+79639951366' target='blank'><PiWhatsappLogoThin size={35} /></a>
-                                        <a href='https://www.instagram.com/invest__corp/' target='blank'><IoLogoInstagram size={35} /></a>
-                                        <a href='https://web.telegram.org/' target='blank'><PiTelegramLogoThin size={35} /></a>
+                    <a href='https://wa.me/+79031684670' target='blank'><PiWhatsappLogoThin size={35} /></a>
+                    <a href='https://www.instagram.com/invest__corp/' target='blank'><IoLogoInstagram size={35} /></a>
+                    <a href='https://web.telegram.org/' target='blank'><PiTelegramLogoThin size={35} /></a>
                   </div >
 
                 </div >

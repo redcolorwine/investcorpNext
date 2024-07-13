@@ -15,7 +15,7 @@
 }
 
 .footerWrapper p>span {
-    color: goldenrod;
+    color: rgb(224, 183, 127);;
 }
 
 .logo img {
@@ -33,9 +33,12 @@
     text-align: justify;
     color: gainsboro;
 }
-
+.socials a {
+    text-decoration: none;
+    color: white;
+}
 .footer .privacy p>a {
-    color: goldenrod;
+    color: rgb(224, 183, 127);;
 }
 
 
