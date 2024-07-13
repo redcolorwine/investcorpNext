@@ -194,7 +194,7 @@ const Home = (props) => {
                   <div className={styles.socIcons}>
                     <a href='https://wa.me/+79031684670' target='blank'><PiWhatsappLogoThin size={35} /></a>
                     <a href='https://www.instagram.com/invest__corp/' target='blank'><IoLogoInstagram size={35} /></a>
-                    <a href='https://web.telegram.org/' target='blank'><PiTelegramLogoThin size={35} /></a>
+                    <a href='https://t.me/Investcorpro' target='blank'><PiTelegramLogoThin size={35} /></a>
                   </div >
 
                 </div >
