@@ -1,0 +1,114 @@
+.contactForm {}
+
+.contactForm {
+    align-self: self-end;
+    width: 400px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Century Gothic', SomeFont, sans-serif;
+    margin: 0 auto;
+}
+
+.contactForm h2 {
+
+    text-align: center;
+    color: white;
+    font-size: 17pt;
+}
+
+.contactForm label {
+    margin-top: 20px;
+}
+
+.contactForm label, .contactForm input {
+    display: block;
+    font-size: 14pt;
+    /* border-radius: 5px; */
+    margin: 20px auto 20px auto;
+    text-align: left;
+    border: none;
+    outline: none;
+    background-color: rgba(30, 40, 50, 0);
+}
+
+.contactForm input {
+    width: 100%;
+    height: 40px;
+    /* border-bottom: 2px solid gray; */
+    background-color: white;
+    /* border-radius: 15px; */
+}
+
+.contactForm textarea {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    resize: none;
+    background-color: rgba(30, 40, 50, 0.2);
+    color: white;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.contactForm textarea::placeholder {
+    color: white;
+}
+
+.contactForm input[type="submit"] {
+    background-color: rgb(24, 24, 24);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contactForm input[type="checkbox"] {
+    height: 30px;
+    width: 40px;
+    display: inline-block;
+    margin: 20px auto 10px auto;
+    accent-color: goldenrod;
+
+}
+
+.contactForm label[for="ck"] {
+    font-size: 10pt;
+    text-align: center;
+  
+}
+
+.contactForm form {
+    font-size: 10pt;
+}
+
+.errorMessage {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.errorMessage p {
+    color: red;
+    text-align: justify;
+}
+
+.acceptMenu p {
+    color: white;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+@media (max-width: 830px) {
+    .contactForm {
+        align-self: center;
+        margin-top: 40px;
+        width: 90%;
+
+
+    }
+}

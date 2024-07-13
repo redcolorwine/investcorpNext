@@ -1,26 +1,49 @@
-html,
-body {
+* {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Century Gothic', SomeFont, sans-serif;
+  scroll-behavior: smooth;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+html, body, #root, .App {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  /* background-color: rgb(24, 24, 24); */
 }
 
-* {
-  box-sizing: border-box;
+body, html {
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
+.center {
+  /* width: 90%; */
+  /* background-color: red; */
+}
+
+.center img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.slick-list {
+  margin: 0 -7px;
+}
+
+.slick-slide>div {
+  padding: 0 20px;
+}
+
+*:focus {
+  outline: 0;
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  html, body, #root, .App {
+    background-color: rgb(24, 24, 24);
   }
 }
