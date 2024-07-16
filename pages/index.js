@@ -4,8 +4,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from '../styles/Home.module.css'
-import { redirect } from 'next/navigation'
-import MainContainer from '../components/MainContainer/MainContainer';
 import AccordeonItem from '../components/accordeonItem/AccordeonItem';
 import ContactForm from '../components/contactForm/ContactForm';
 import MemCard from '../components/employee/memCard';
@@ -26,7 +24,6 @@ const Home = (props) => {
     centerMode: true,
     infinite: true,
     centerPadding: "40px",
-    // slidesToShow: 3,
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
@@ -52,8 +49,6 @@ const Home = (props) => {
     ]
   };
   const formRef = useRef();
-
-
   const goForm = async () => {
     formRef.current.scrollIntoView({ behavior: "smooth" });
   };
@@ -68,6 +63,7 @@ const Home = (props) => {
         <meta name="keywords"
           content="Агенство недвижимости Москва, Аренда недвижимости Москва, поиск жилья Москва, аренда Москва, элитная недвижимость Москва, аренда элитной недвижимости Москва, снять квартиру Москва, снять офис Москва, офис Москва, Агенство недвижимости, недвижимость, поиск недвижимости, поиск жилья, аренда, аренда недвижимости, аренда помещений, сдать недвижимость, купить квартиру, купить помещение, Агентства недвижимости в Москве, выбрать агентство недвижимости, риэлторы агентства, брокер, риэлтор" />
         <meta name="robots" content="all" />
+        <meta name="format-detection" content="telephone=no"/>
         <title>Investment Corporation. Надежное агенство недвижимости.</title>
       </Head>
       <div className={styles.mainBlock} ref={props.mainRef} id='main'>
@@ -135,7 +131,6 @@ const Home = (props) => {
                   <h4>Аренда офисов класса A, А+ и B+</h4>
                   <p>Площадь от 30 м.<sup>2</sup></p>
                 </div>
-
                 <a href='https://wa.me/+79031684670'><Image src={'/media/mc1.jpg'} height={1000} width={1000} alt="" /></a>
               </div>
               <div>
@@ -170,7 +165,7 @@ const Home = (props) => {
         </div >
 
         <div className={styles.contacts} ref={props.contactsRef} id='contacts'>
-          <h1>  КОНТАКТЫ</h1 >
+          <h1>  КОНТАКТЫ</h1>
           <div className={styles.contactsWrapper}>
             <div className={styles.leftSide}>
               <div className={styles.top}>
@@ -183,7 +178,6 @@ const Home = (props) => {
                   <p>Email: <span>investment.corporation@invest-corp.ru</span></p>
                 </div >
                 <div className={styles.phone}>
-
                   <CiPhone size={65} />
                   <p>Телефон: <span>+7 (903) 168-46-70</span></p>
                 </div >
@@ -195,14 +189,11 @@ const Home = (props) => {
                     <a href='https://wa.me/+79031684670' target='blank'><PiWhatsappLogoThin size={35} /></a>
                     <a href='https://www.instagram.com/invest__corp/' target='blank'><IoLogoInstagram size={35} /></a>
                     <a href='https://t.me/Investcorpro' target='blank'><PiTelegramLogoThin size={35} /></a>
-                  </div >
-
-                </div >
-              </div >
-
+                  </div>
+                </div>
+              </div>
 
             </div>
-
 
             <div className={styles.rightSide} ref={formRef}>
               <ContactForm />

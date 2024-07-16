@@ -96,7 +96,6 @@
 .mainBlock .mainText p {
   font-size: 16pt;
   font-weight: 900;
-  /* margin-left: 150px; */
   width: auto;
   color: gray;
   text-transform: uppercase;
@@ -121,8 +120,6 @@
 .aboutBlock>h1 {
   color: whitesmoke;
   font-size: 20pt;
-
-  /* padding-left: 350px; */
 }
 
 .aboutBlock>h1>svg {
@@ -162,7 +159,6 @@
 /*TEAM*/
 
 .team {
-  /* margin: 80px auto 0px auto; */
   height: auto;
   width: 100%;
   background-color: rgb(24, 24, 24);
@@ -173,8 +169,6 @@
 .team>h1 {
   color: whitesmoke;
   font-size: 20pt;
-
-  /* padding-left: 350px; */
 }
 
 
@@ -200,8 +194,6 @@
 .services>h1 {
   color: whitesmoke;
   font-size: 20pt;
-
-  /* padding-left: 350px; */
 }
 
 .servicesWrapper {
@@ -356,7 +348,6 @@ p.accActive {
 
 .contacts {
   color: white;
-  /* margin: 0 auto; */
 }
 
 .contacts h1 {
@@ -434,7 +425,6 @@ p.accActive {
 
   .mainBlock .mainText p {
     font-size: 14pt;
-    /*width: 400px; */
   }
 
   /*ABOUT*/
@@ -450,8 +440,6 @@ p.accActive {
   .aboutBlock>h1 {
     color: whitesmoke;
     font-size: 20pt;
-
-    /* padding-left: 350px; */
   }
 
   .aboutBlock>h1>svg {
@@ -485,18 +473,14 @@ p.accActive {
   /*TEAM*/
 
   .team {
-    /* margin: 80px auto 0px auto; */
     height: auto;
     width: 100%;
-
   }
 
   .team>h1 {
     font-size: 20pt;
 
   }
-
-
 
   .teamWrapper {
     margin-top: 60px;
@@ -505,9 +489,6 @@ p.accActive {
     gap: 20px;
     align-items: center;
   }
-
-
-
 
   /*SERVICES*/
   .services {}
@@ -563,7 +544,6 @@ p.accActive {
   }
 
   /*searchingBest*/
-  .searchingBest {}
 
   .searchingBest h1 {
     font-size: 20pt;
@@ -651,7 +631,6 @@ p.accActive {
 
   .mainBlock .mainText p {
     font-size: 12pt;
-    /* width: 400px; */
   }
 
   /*ABOUT*/
@@ -665,8 +644,6 @@ p.accActive {
   .aboutBlock>h1 {
     color: whitesmoke;
     font-size: 18pt;
-
-    /* padding-left: 350px; */
   }
 
   .aboutBlock>h1>svg {
@@ -695,7 +672,6 @@ p.accActive {
   /*TEAM*/
 
   .team {
-    /* margin: 80px auto 0px auto; */
     height: auto;
     width: 100%;
 
@@ -720,7 +696,6 @@ p.accActive {
 
 
   /*SERVICES*/
-  .services {}
 
   .services>h1 {
     font-size: 20pt;
@@ -926,8 +901,6 @@ p.accActive {
 
   .mainBlock .mainText p {
     font-size: 12pt;
-
-    /* width: 400px; */
   }
 
   /*ABOUT*/
@@ -941,9 +914,6 @@ p.accActive {
 
   .aboutBlock>h1 {
     font-size: 18pt;
-
-    /* padding-bottom: 20px; */
-    /* padding-left: 350px; */
   }
 
   .aboutBlock>h1>svg {
@@ -975,19 +945,14 @@ p.accActive {
   /*TEAM*/
 
   .team {
-    /* margin: 80px auto 0px auto; */
     height: auto;
     width: 100%;
-
     background-color: rgb(24, 24, 24);
   }
 
   .team>h1 {
     font-size: 18pt;
-
   }
-
-
 
   .teamWrapper {
     margin-top: 60px;
@@ -1003,13 +968,11 @@ p.accActive {
 
   /*SERVICES*/
   .services {
-
     background-color: rgb(24, 24, 24);
   }
 
   .services>h1 {
     font-size: 20pt;
-
   }
 
   .servicesWrapper {
@@ -1132,7 +1095,6 @@ p.accActive {
   .mainBlock {
     height: 100vh;
     width: 100%;
-    /* text-align: center; */
   }
 
   .mainBlock .mainText {
@@ -1162,9 +1124,6 @@ p.accActive {
 
   .aboutBlock>h1 {
     font-size: 18pt;
-
-    /* padding-bottom: 20px; */
-    /* padding-left: 350px; */
   }
 
   .aboutBlock>h1>svg {
@@ -1190,7 +1149,6 @@ p.accActive {
     display: flex;
     flex-direction: column;
     text-align: justify;
-
     gap: 20px;
     font-size: 11pt;
   }

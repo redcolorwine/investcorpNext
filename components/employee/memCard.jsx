@@ -1,9 +1,7 @@
 import React from 'react';
 import cmedia from './memCard.module.css';
 import { motion } from "framer-motion";
-import { textAnimation, textAnimation2 } from '../animations';
 
-import Image from 'next/image';
 const MemCard = (props) => {
     return (
         <motion.div className={cmedia.memCard} initial={'hidden'}

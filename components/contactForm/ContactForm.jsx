@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import cmodule from './contactform.module.css';
 import emailjs from '@emailjs/browser';
 
@@ -10,7 +10,6 @@ const ContactForm = () => {
     const [mes, setMes] = useState('');
     const [checked, setChecked] = useState(true);
     const [errMes, setErrMes] = useState(false);
-
     const [acceptMenu, showAcceptMenu] = useState(false);
 
     const sendEmail = (e) => {

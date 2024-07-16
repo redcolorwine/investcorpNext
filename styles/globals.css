@@ -1,18 +1,3 @@
-@font-face {
-  font-family: monsterratItalic;
-
-  src: url('/media/fonts/Monsterrat/MontserratAlternates-LightItalic.ttf');
-}
-
-@font-face {
-  font-family: monsterratMedium;
-  src: url('/media/fonts/Monsterrat/MontserratAlternates-Light.ttf');
-}
-
-@font-face {
-  font-family: monsterratLight;
-  src: url('/media/fonts/Monsterrat/MontserratAlternates-ExtraLight.ttf');
-}
 
 @font-face {
   font-family: Comfortaa;
@@ -38,11 +23,6 @@ body, html {
 
 video::-webkit-media-controls {
   display: none;
-}
-
-.center {
-  /* width: 90%; */
-  /* background-color: red; */
 }
 
 .center img {

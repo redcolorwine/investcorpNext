@@ -1,9 +1,9 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import '../styles/globals.css'
 import MainContainer from '../components/MainContainer/MainContainer';
 
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component }) {
 
 
   return (

@@ -1,19 +1,13 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer';
 import '../../styles/Home.module.css'
 
-const MainContainer = ({ mainRef,
-    aboutRef,
-    teamRef,
-    accordeonRef,
-    servicesRef,
-    contactsRef,
-    searchRef, children }) => {
+const MainContainer = ({ children }) => {
 
     return (
         <div className="App">
-            <Header menuRefs={[mainRef, aboutRef, teamRef, servicesRef, searchRef, accordeonRef, contactsRef]}/>
+            <Header />
             <div className="Center">
                 {children}
             </div>

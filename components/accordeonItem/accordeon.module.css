@@ -11,11 +11,6 @@
     transition: opacity 1s ease-out;
 }
 
-/* .accordeonItem>svg {
-    height: 25px;
-    width: 25px;
-} */
-
 .accordeonItem svg:hover {
     cursor: pointer;
 }
@@ -34,10 +29,8 @@
 }
 
 p.accActive {
-
     height: auto;
     opacity: 1;
-    /* transition: 1.5s; */
 }
 
 @media (max-width: 1200px) {
