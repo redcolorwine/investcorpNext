@@ -58,6 +58,7 @@ const Home = (props) => {
     <>
       <Head>
         <meta charset="utf-8" />
+        <meta name="google-site-verification" content="oG9xkUteH1P1UUd-Ndav9KI5fuJr_SCrgYYVMlkhh8A" />
         <meta name="description"
           content="Современное агенство недвижимости. Путеводитель в поиске качественной недвижимости. Полное сопровождение сделок связанных с недвижимостью." />
         <meta name="keywords"
