@@ -1,13 +1,18 @@
-
 @font-face {
   font-family: Comfortaa;
   src: url('/media/fonts/Comfortaa/Comfortaa-Light.ttf');
 }
+
 * {
   padding: 0;
   margin: 0;
-  font-family: Comfortaa,'Century Gothic', SomeFont, sans-serif;
+  font-family: Comfortaa, 'Century Gothic', SomeFont, sans-serif;
   scroll-behavior: smooth;
+}
+
+a[href^=tel] {
+  text-decoration: inherit;
+  color: inherit;
 }
 
 html, body, #root, .App {
