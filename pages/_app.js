@@ -10,7 +10,7 @@ function MyApp({ Component }) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
       <MainContainer >
         <Component />
