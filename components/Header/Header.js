@@ -3,12 +3,11 @@ import cmedia from './header.module.css';
 import { FiAlignJustify } from 'react-icons/fi';
 import { FiX } from "react-icons/fi";
 import { motion } from "framer-motion"
-import { useRouter, usePathname } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import Image from 'next/image';
 
 const Header = (props) => {
     const router = useRouter()
-    const pathname = usePathname()
     const [burger, setBurger] = useState(true);
 
     const clickBurger = () => {

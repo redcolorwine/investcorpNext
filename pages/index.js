@@ -57,18 +57,20 @@ const Home = (props) => {
 
     <>
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="google-site-verification" content="oG9xkUteH1P1UUd-Ndav9KI5fuJr_SCrgYYVMlkhh8A" />
         <meta name="description"
           content="Современное агентство недвижимости в Москве. Путеводитель в поиске качественной недвижимости. Полное сопровождение сделок связанных с недвижимостью. Недвижимость в Москве и Подмосковье." />
         <meta name="keywords"
           content="агентство недвижимости Москва, Аренда недвижимости Москва, поиск жилья Москва, аренда Москва, элитная недвижимость Москва, аренда элитной недвижимости Москва, снять квартиру Москва, снять офис Москва, офис Москва, агентство недвижимости, недвижимость, поиск недвижимости, поиск жилья, аренда, аренда недвижимости, аренда помещений, сдать недвижимость, купить квартиру, купить помещение, Агентства недвижимости в Москве, выбрать агентство недвижимости, риэлторы агентства, брокер, риэлтор" />
         <meta name="robots" content="all" />
-        <meta name="format-detection" content="telephone=no"/>
-        <title>Investment Corporation. Надежное агентство недвижимости в Москве. Недвижимость в Москве и Подмосковье.</title>
+        <meta name="googlebot" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="format-detection" content="telephone=no" />
+        <title>Investment Corporation.Надежное агентство недвижимости в Москве.</title>
       </Head>
       <div className={styles.mainBlock} ref={props.mainRef} id='main'>
-        <Image src={'/media/back10.jpg'} width={1080} height={1920} alt="" srcset="" />
+        <Image src={'/media/back10.jpg'} width={1080} height={1920} alt="" srcSet="" />
         <div className={styles.mainText}>
           <motion.h1 initial={'hidden'}
             whileInView={'visible'} custom={3} variants={textAnimation3}>INVESTMENT CORPORATION</motion.h1>
@@ -90,7 +92,7 @@ const Home = (props) => {
                 Благодаря профессионализму специалистов <span>INVESTMENT CORPORATION</span>, мы способны учесть все пожелания наших клиентов и подобрать лучшее для Вас решение.</motion.p>
             </div>
 
-            <Image src={'/media/gifs/housegifcrop.gif'} alt='gifImage' width={500} height={500} />
+            <Image src={'/media/gifs/housegifcrop.gif'} unoptimized alt='gifImage' width={500} height={500} />
           </motion.div>
 
         </div>
@@ -102,8 +104,8 @@ const Home = (props) => {
             <MemCard image={'/media/photo/Анастасия.jpg'} animation={textAnimation2} about={'Руководитель отдела офисной недвижимости'} name={'Анастасия Краморенко'} custom={5} aboutText={'"Ключ к успеху в сфере недвижимости - это не только знание рынка, но и умение понимать потребности людей. Мы стремимся к тому, чтобы каждый клиент стал нашим постоянным партнером и возвращался к нам снова и снова."'} />
             <MemCard image={'/media/photo/Асатрян Ева.jpeg'} animation={textAnimation} about={'Руководитель отдела офисной недвижимости'} name={'Ева Асатрян'} custom={5} aboutText={'"Недвижимость - это комплексная и динамическая сфера. Не существует универсального рецепта успеха. Важно изучать, анализировать, быть готовым к изменениям. И мы Вам с этим поможем!"'} />
             <MemCard image={'/media/photo/Валерия Главная.jpeg'} animation={textAnimation2} about={'Руководитель отдела торговых помещений'} name={'Валерия Главная'} custom={3} aboutText={'"Брокер - это очень интересная, многогранная профессия, которая при должном усердии непременно ведет к успеху и высокому уровню заработка. А наша команда готова обучить всем необходимым навыкам и помочь развиваться в сфере недвижимости."'} />
-          </div >
-        </div >
+          </div>
+        </div>
 
         <motion.div className={styles.services} ref={props.servicesRef} id='services' initial={'hidden'}
           whileInView={'visible'} viewport={{ amount: 0.2 }}>
@@ -114,7 +116,7 @@ const Home = (props) => {
               <div className={styles.serviceType}><span>2</span><motion.p custom={2} variants={textAnimation3}>Проведение просмотров объектов недвижимости</motion.p></div>
               <div className={styles.serviceType}><span>3</span><motion.p custom={3} variants={textAnimation3}>Ведение полного цикла сделки от подбора объекта до заключения договора</motion.p></div>
               <div className={styles.serviceType}><span>4</span><motion.p custom={4} variants={textAnimation3}>Ведение документации по сделкам с недвижимостью</motion.p></div>
-            </div >
+            </div>
             <video width="400" autoPlay={true} muted playsInline loop style={{ pointerEvents: "none" }}>
               <source src='/media/investVideo.mp4' type="video/mp4" />
             </video>
@@ -160,8 +162,8 @@ const Home = (props) => {
             <AccordeonItem headText={'Почему стоит обратиться в агентство недвижимости INVESTMENT CORPORATION?'} descrText={'Мы предоставляем качественные услуги в сфере консалтинга по операциям с коммерческой недвижимостью для собственников, потребителей и инвесторов. Наша общественная миссия - помочь большему количеству клиентов, найти оптимальные решения вопросов, связанных с недвижимостью, обеспечить максимальную выгоду и удобство сделки, а также сделать рынок консалтинговых, брокерских услуг цивилизованным и прозрачным.'} />
             <AccordeonItem headText={'Почему выгодно сотрудничать с агентством?'} descrText={'Наше агентство сотрудничает только с надежными арендодателями и собственниками. Мы гордимся нашей командой профессиональных брокеров, ведь опыт каждого от 3-х до 10 лет, а в нашем портфолио множество успешно реализованных сделок с лучшими компаниями страны.'} />
             <AccordeonItem headText={'В чем заключается наша работа?'} descrText={'Мы будем сопровождать Вас на всем пути сделки: от выявления запроса до подписания документов. Клиент получает максимально комфортные условия, начиная от привлекательной цены, заканчивая максимальной оперативностью в решении вопросов.'} />
-          </div >
-        </div >
+          </div>
+        </div>
 
         <div className={styles.contacts} ref={props.contactsRef} id='contacts'>
           <h1>  КОНТАКТЫ</h1>
@@ -196,7 +198,7 @@ const Home = (props) => {
 
             <div className={styles.rightSide} ref={formRef}>
               <ContactForm />
-            </div >
+            </div>
 
           </div>
         </div>
