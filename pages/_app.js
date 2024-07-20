@@ -4,6 +4,8 @@ import MainContainer from '../components/MainContainer/MainContainer';
 import Head from 'next/head';
 
 
+
+
 function MyApp({ Component }) {
 
 
@@ -23,6 +25,7 @@ function MyApp({ Component }) {
         <meta name="googlebot" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+
       <MainContainer >
         <Component />
       </MainContainer>

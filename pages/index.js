@@ -58,20 +58,6 @@ const Home = (props) => {
 
     <>
       <Head>
-       <Script>
-          {` (function(m,e,t,r,i,k,a){m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
-          m[i].l=1*new Date();
-          for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-          (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-          ym(97878371, "init", {
-            clickmap:true,
-          trackLinks:true,
-          accurateTrackBounce:true
-   });`}
-        </Script>
-        <noscript><div><Image src="https://mc.yandex.ru/watch/97878371" style={{position:"absolute", left:"-9999px"}} alt="" /></div></noscript>
         <meta charSet="utf-8" />
         <meta name="google-site-verification" content="oG9xkUteH1P1UUd-Ndav9KI5fuJr_SCrgYYVMlkhh8A" />
         <meta name="description"
